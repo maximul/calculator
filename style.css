@@ -1,0 +1,15 @@
+#calculator {
+	text-align: center;
+}
+
+input {
+	width: 50px;
+}
+
+div {
+	padding: 10px;
+}
+
+#res {
+	height: 20px;
+}

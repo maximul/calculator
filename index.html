@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="calculator">
+		<div>
+			<input type="text" id="n1">
+			<select id="sel">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
+			<input type="text" id="n2">
+		</div>
+		<span>=</span>
+		<div id="res"></div>
+		<div>
+			<button onclick="result()">Вычислить</button>
+			<button onclick="cleaner()">Очистить</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
