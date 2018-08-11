@@ -1,15 +1,37 @@
-#calculator {
+div {
+	padding: 10px 0;
+}
+
+h1 {
 	text-align: center;
 }
 
-input {
-	width: 50px;
-}
-
-div {
-	padding: 10px;
-}
-
 #res {
-	height: 20px;
+	height: 30px;
+	text-align: right;
+	border: 1px solid orange;
+}
+
+button, input, select {
+	border-radius: 5px;
+}
+
+#eq {
+	width: 35px;
+}
+
+#sel {
+	height: 30px;
+}
+
+input {
+	text-align: right;
+}
+
+table {
+	margin: auto;
+}
+
+#cleaner button {
+	background-color: #dc3545;
 }
